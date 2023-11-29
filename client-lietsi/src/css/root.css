@@ -1,0 +1,18 @@
+:root{
+    --main-color: #0578FF;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --sub-main-color: rgb(203, 228, 243);
+    /* --header-color: rgb(232, 235, 237); */
+    --border-color: rgb(233, 231, 231);
+}
+
+*{
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+}
