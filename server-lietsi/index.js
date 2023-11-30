@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 5000;
 const cors = require("cors");
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 
 app.use(cors());
 app.use(express.json());
@@ -42,6 +42,51 @@ async function run() {
       const result = await lietsi.toArray();
       res.send(result);
     });
+
+    // patch liet si 
+    app.patch("/lietsi/:id", async(req,res) =>{
+      const id = req.params.id
+      const updateLietsiData = req.body
+      const filter = {_id: new ObjectId(id)}
+
+      const options = { upsert: true }
+      const updateLietsi = {
+        $set: {
+          ...updateLietsiData
+        }
+      }
+      
+      //update lai infor
+      const result = await ApiLietsi.updateOne(filter, updateLietsi, options)
+      res.send(result)
+
+    })
+
+
+    //delete lietsi
+    app.patch("lietsi/:id", async(req,res) => {
+      const id =req.params.id
+      const filter = {_id: new ObjectId(id)}
+
+      const result = await ApiLietsi.deleteOne(filter)
+      res.send(result)
+    })
+
+    //find by danh muc
+    app.get("/all-liest", async(req,res) => {
+      let query = {}
+      if(req.query?.career){
+        query = {career: req.query.career}
+      }else{
+
+      }
+
+      const result = await ApiLietsi.find(query).toArray()
+      res.send(result)
+
+    })
+
+
 
     // ket noi database
     await client.db("admin").command({ ping: 1 });
