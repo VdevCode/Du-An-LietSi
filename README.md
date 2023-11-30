@@ -9,6 +9,7 @@ Nhân thân có thể tìm kiếm được liệt sĩ thông qua việc gửi th
 * Họ tên: Trường FPT Polytechnic
 * Email: đang cập nhật
 * Đơn vị công tác: đang cập nhật
-* Github: [https://github.com/binhvq](https://github.com/VdevCode)
+* Github: [Vdevcode]([https://github.com/binhvq](https://github.com/VdevCode))
+* ![alt](http://~)
 * Skype: đang cập nhật
 * FB: đang cập nhật
