@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+    .list-menu {
+        display: none;
+      }
+      .logo {
+        font-size: 1rem;
+      }
+      .search-content i {
+        font-size: 0.8rem;
+      }
+      .search-content {
+        padding: 4px 6px;
+      }
+      .search-content input {
+        font-size: 0.8rem;
+      }
+  .main-infor {
+    padding: 74px 5%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-infor h1 {
+    font-size: 1rem;
+  }
+  .main-infor-desc {
+    font-size: 0.8rem;
+  }
+  .main-infor-sodier {
+    font-size: 0.8rem;
+  }
+  .main-infor-img {
+    text-align: center;
+  }
+  .main-infor-img img {
+    width: 200px;
+    height: 100%;
+    border-radius: 6px;
+  }
+  .main-title {
+    background: var(--main-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 60px 5%;
+  }
+  .main-title h1 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .main-title p {
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+.main-about-heading p{
+    padding: 8px 12px;
+    background: var(--main-color);
+    display: inline-block;
+    color: var(--white-color);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    font-size: .8rem;
+}
+.main-about-sub-des{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.main-about-sub-des-sodier, .main-about-sub-center, .main-about-sub-hometonw{
+    width: 100%;
+}
+.main-about-sub-des-sodier p{
+    font-size: .8rem;
+}
+.main-about-sub-center{
+
+}
+.main-about-sub-hometonw{
+    font-size: .8rem;
+}
+
+}

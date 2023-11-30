@@ -109,3 +109,66 @@ img {
 .main-title p{
     font-weight: 300;
 }
+.main-about{
+    margin: 60px 5%;
+}
+.main-about-heading{
+    text-align: center;
+}
+.main-about-heading p{
+    padding: 8px 12px;
+    background: var(--main-color);
+    display: inline-block;
+    color: var(--white-color);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.main-about-sub-des{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-about-sub-des-sodier{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: #F7F6F3;
+    width: 40%;
+}
+.main-about-sub-des-sodier p{
+    text-align: justify;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.main-about-sub-center{
+    width: 20%;
+    text-align: center;
+    font-size: 1rem;
+    justify-content: center;
+    /* transform: translateX(-50%);
+    margin-left: 50%; */
+    margin: 20px auto;
+}
+.main-about-sub-center div{
+    background-color: #F7F6F3;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-about-sub-center div div{
+    background-color: #9E00FF;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.main-about-sub-hometonw{
+    width: 40%;
+    text-align: justify;
+    font-weight: 300;
+}

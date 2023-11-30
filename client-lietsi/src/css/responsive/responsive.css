@@ -278,42 +278,6 @@
   .main-share-right {
     width: 100%;
   }
-  .main-infor {
-    padding: 74px 5%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .main-infor h1 {
-    font-size: 1rem;
-  }
-  .main-infor-desc {
-    font-size: 0.8rem;
-  }
-  .main-infor-sodier {
-    font-size: 0.8rem;
-  }
-  .main-infor-img {
-    text-align: center;
-  }
-  .main-infor-img img {
-    width: 200px;
-    height: 100%;
-    border-radius: 6px;
-  }
-  .main-title {
-    background: var(--main-color);
-    color: var(--white-color);
-    text-align: center;
-    padding: 60px 5%;
-  }
-  .main-title h1 {
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-  .main-title p {
-    font-weight: 300;
-    font-size: .8rem;
-  }
 }
 
 @media screen and (min-width: 24.375em) {
